@@ -3,33 +3,45 @@ body{
     background-repeat: no-repeat;
     margin: 0 auto;
     background-position: center;
+    
 }
 
 .container {
+    
     position: relative;
     top:80px;
-    width: 300px;
-    height: 440px;
+    width: 280px;
+    height: 420px;
     border-radius: 5px;
     background-color: #222326;
     opacity: 0.95;
-    padding: 20px;
+    padding: 2%;
+    padding-top: 1%;
     font-family: sans-serif;
     color: white;
     margin: 0 auto;
+    line-height: 1.15em;
 }
 form {
-    margin: auto;
+    margin: auto auto;
+    position:relative;
 }
 label {
-    font-size: 80%;
+    font-size: 75%;
 }
+.maly {
+    font-size: 60%;
+}
+
 input[type=text] {
-    width: 80%;
+    width: 95%;
 }
 input[type=tel]{
     width: 40%;
 }
 textarea {
     width: 90%;
+}
+input[type=submit]{
+    align-items: center;
 }
