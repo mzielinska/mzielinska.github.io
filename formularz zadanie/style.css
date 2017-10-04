@@ -24,8 +24,11 @@ form {
 label {
     font-size: 80%;
 }
-input[type=text] {s
-    width: 90%
+input[type=text] {
+    width: 80%;
+}
+input[type=tel]{
+    width: 40%;
 }
 textarea {
     width: 90%;

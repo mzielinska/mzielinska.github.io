@@ -13,14 +13,12 @@
         <form action="https://formspree.io/magda.zielinska@gmail.com" method="POST">
                 <label for="imie">Imię </label> <br>
                 <input id="imie" type="text" name="imie" required> <br>
-             
-                
                 <label for="nazwisko">Nazwisko </label> <br>
                 <input id="nazwisko" type="text" name="nazwisko" required><br>
                 <label for="mail">Email </label> <br>
                 <input id= "mail" type="text" name="email" required><br>
                 <label for="telefon">Telefon </label> <br>
-                <input id= "telefon" type="number" name="telefon"><br>
+                <input id= "telefon" type="tel" name="telefon" placeholder="888 888 888" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" maxlength="9"><br>
                 <label for="miasto">Miasto </label> <br>
                 <select id="miasto">
                   <option value="warszawa">Warszawa</option>
