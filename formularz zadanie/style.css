@@ -1,0 +1,32 @@
+body{
+    background-image: url("image/forest.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.container {
+    position: relative;
+    top:80px;
+    width: 300px;
+    height: 440px;
+    border-radius: 5px;
+    background-color: #222326;
+    opacity: 0.95;
+    padding: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin: 0 auto;
+}
+form {
+    margin: auto;
+}
+label {
+    font-size: 80%;
+}
+input[type=text] {s
+    width: 90%
+}
+textarea {
+    width: 90%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://formspree.io/magda.zielinska@gmail.com" method="POST">
+                <label for="imie">Imię </label> <br>
+                <input id="imie" type="text" name="imie" required> <br>
+             
+                
+                <label for="nazwisko">Nazwisko </label> <br>
+                <input id="nazwisko" type="text" name="nazwisko" required><br>
+                <label for="mail">Email </label> <br>
+                <input id= "mail" type="text" name="email" required><br>
+                <label for="telefon">Telefon </label> <br>
+                <input id= "telefon" type="number" name="telefon"><br>
+                <label for="miasto">Miasto </label> <br>
+                <select id="miasto">
+                  <option value="warszawa">Warszawa</option>
+                  <option value="krakow">Kraków</option>
+                  <option value="gdansk">Gdańsk</option>
+                </select>
+                <br>
+                <label> Płeć </label> <br>
+                <input id = "kobieta" type="radio" name ="plec" value="kobieta" checked>
+                <label for ="kobieta">Kobieta </label><br>
+                <input id= "mezczyzna" type="radio" name ="plec" value="mezczyzna">
+                <label for="mezczyzna">Mężczyzna </label><br>
+                <input id="inna" type="radio" name="plec" value="inna">
+                <label for="inna">Inna </label><br>
+                <br>
+          
+            <input id="zgoda" type="checkbox" name="checkbox" checked class ="little"> <label for="zgoda">Zgadzam się na przetwarzanie danych osobowych</label> <br><br>
+
+            <textarea id="text" name="text" rows="4"></textarea> <br>
+
+            <input type="submit" value="Wyślij">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
